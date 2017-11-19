@@ -1,0 +1,63 @@
+#gallery
+{
+    width: 100%;
+}
+
+figure
+{
+    width: 33%;
+}
+@media all and (max-width: 1170px)
+{
+    #gallery
+    {
+    position: relative;
+    background-image: url('obrazy/man-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+/*    width: 100%;*/
+    }
+    .napis
+    {
+    
+    float: right;
+    position: absolute;
+    font-size: 1em;
+    font-family: Verdana;
+    color: white;
+    }
+    .size
+    {
+    font-size: 2em;
+    }
+}
+@media all and (max-width: 992px) 
+{
+    #gallery
+    {
+/*    position: relative;*/
+    background-image: url('obrazy/man-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    }
+
+    .napis
+    {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+    margin-top: 100%;
+    color: black;
+    }
+
+    .size
+    {
+    font-size: 50px;
+    }
+}
+
+
+

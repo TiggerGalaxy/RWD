@@ -1,0 +1,31 @@
+#gallery
+{
+    width: 100%;
+}
+
+#gallery
+{
+    position: relative;
+    background-image: url('obrazy/man-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+    width: 100%;
+}
+
+.napis
+{
+    margin-left: 125px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Verdana;
+    margin-top: 30%;
+    color: white;
+}
+
+.size
+{
+    font-size: 50px;
+}
+
+

@@ -15,11 +15,14 @@
 
 .napis
 {
-    margin-left: 125px;
+/*    margin-left: 125px;*/
+    left: 125px;
     position: absolute;
     font-size: 30px;
     font-family: Verdana;
-    margin-top: 30%;
+    background-size: cover;
+/*    margin-top: 30%;*/
+    top: 30%;
     color: white;
 }
 

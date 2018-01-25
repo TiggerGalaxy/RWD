@@ -9,19 +9,17 @@
     background-image: url('obrazy/man-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 140vh;
+    height: 100vh;
     width: 100%;
 }
 
 .napis
 {
-/*    margin-left: 125px;*/
     left: 125px;
     position: absolute;
     font-size: 30px;
     font-family: Verdana;
     background-size: cover;
-/*    margin-top: 30%;*/
     top: 30%;
     color: white;
 }

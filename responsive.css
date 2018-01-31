@@ -12,6 +12,7 @@ figure
 {
     #gallery
     {
+    left: unset;
     position: relative;
     background-image: url('obrazy/man-2.jpg');
     background-repeat: no-repeat;
@@ -52,6 +53,10 @@ figure
 
     .napis
     {
+    width: 100%;
+    right: 0;
+    float: none;
+    left: 0;
     text-align: center;
     font-size: 30px;
     font-family: Verdana;
